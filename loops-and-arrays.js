@@ -24,6 +24,10 @@ console.log('names: ', names);
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] *= 3;
+}
+console.log('numbers: ', numbers);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
